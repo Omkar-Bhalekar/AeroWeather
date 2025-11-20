@@ -4,6 +4,12 @@ AeroWeather is a lightweight, responsive web application that provides **real-ti
 
 ---
 
+## 🌐 Live Demo
+
+Experience the project here:  
+👉 **https://omkar-bhalekar.github.io/AeroWeather/**
+---
+
 ## 🚀 **Features**
 
 ### ✔ Real-Time Weather Data
