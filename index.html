@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+  
+    <div class="Header"><h1>Aero<span>Weather</span></h1></div>
+    <div class="container">
+      <h1>Check Weather of your City</h1>
+      <div class="input-container">
+        <input type="text" id="city-input" placeholder="Enter city name" />
+        <button id="get-weather-btn">Get Weather</button>
+      </div>
+      <div id="weather-info" class="hidden">
+        <h2 id="city-name"></h2>
+        <p id="temperature"></p>
+        <p id="feelslike"></p>
+        <p id="description"></p>
+      
+        <img id="weatherIcon" alt="" width="80"/><br>
+        <div id="aqi-info"  class="hidden">
+          <button id="Aqibutton">Check AQI</button>
+          <div id="Aqi" class="hidden">
+          <p></p>
+           <img src="Aqi-Range.webp" alt="Aqi-Range"></div>
+        </div>
+        
+        
+      </div>
+      <p id="error-message" class="hidden">City not found. Please try again.</p>
+
+    </div>
+
+  <footer class="footer">
+  
+  <p>Made for weather & AQI updates</p>
+   <p class="disclaimer">This Webapp is for educational purposes. Weather accuracy may vary.</p>
+    <p>Weather data refreshed in real-time • Version 1.0.0</p>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
