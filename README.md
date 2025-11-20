@@ -40,17 +40,21 @@ AeroWeather is a lightweight, responsive web application that provides **real-ti
 ### **1. OpenWeather API**
 Fetches temperature, feels-like value, weather descriptions, and icons.
 
-https://api.openweathermap.org/data/2.5/weather?q=%7BCITY_NAME%7D&units=metric&appid=%7BYOUR_OPENWEATHER_API_KEY%7D
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}
 
 
 ### **2. WAQI API**
 Provides city-wise AQI values.
 
-https://api.waqi.info/feed/%7Bcity%7D/?token=%7BAQI_TOKEN%7D
+https://api.waqi.info/feed/{city}/?token={AQI_TOKEN}
+
+## 📬 Contact
+Developed by **Omkar Bhalekar**
+
+Feel free to connect for suggestions or improvements.
+## 🏁 Final Notes
+Thank you for checking out AeroWeather!  
+If you liked this project, consider giving it a star ⭐ on GitHub.
 
 
-##📝 Disclaimer
-
-This project is made for educational purposes.
-Weather and AQI data accuracy depends entirely on external APIs.
 
